@@ -1,4 +1,4 @@
-import { Boom } from '@hapi/boom' 
+import { Boom } from '@hapi/boom'
 import { createHash } from 'crypto'
 import { CatalogCollection, CatalogStatus, OrderDetails, OrderProduct, Product, ProductCreate, ProductUpdate, WAMediaUpload, WAMediaUploadFunction } from '../Types'
 import { BinaryNode, getBinaryNodeChild, getBinaryNodeChildren, getBinaryNodeChildString } from '../WABinary'
